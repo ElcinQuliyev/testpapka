@@ -1,13 +1,20 @@
-let inUnersty = 90;
-let enterscore = 100;
-let (totalscore)=inUnersty + enterscore
+// let myAge = 20;
+// let usarName = 30;
 
-if (inuniUnersty === 90) {
-  console.log("A");
-} else if (inuniUnersty >= 75) {
-  console.log("B");
-} else if (inuniUnersty >= 60) {
-  console.log("C");
-} else {
-  console.log("Kesildiniz");
+// if (myAge >= 40) {
+// console.log("Yas asqidir");
+// } else if (myAge > 29) {
+// console.log("duzgun cavab");
+// } else {
+// console.log("Yas dusur");
+// }
+
+let girBal = 20;
+let finBal = 40;
+let umumiBal = girBal + finBal;
+
+if (umumiBal <= 100 && umumiBal >= 90) {
+  console.log(" Qiymet:A");
+} else if (umumiBal <= 70 && umumiBal >= 60) {
+  console.log("Qiymet:B");
 }
